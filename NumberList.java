@@ -8,7 +8,7 @@ public class NumberList{
         for (int multiple : multiplesOf3){
             System.out.print(multiple + ", ");
         }
-        for (int n = 0; n<multiplesOf3.size(); n++){
+        for (int n = multiplesOf3.size()-1; n >= 0; n--){
             if (multiplesOf3.get(n)%2 == 0){
                 multiplesOf3.remove(n);
             }
